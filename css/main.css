@@ -1,0 +1,203 @@
+html, body {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #fff;
+}
+
+html, body, input, textarea, select {
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h4,
+h5,
+h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+h1 {
+   font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.8em;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 500;
+}
+
+h3 {
+	font-size: 1.5em;
+    font-weight: 600;
+}
+
+h4 {
+	font-size: 1.2em;
+    font-weight: 700;
+    color: #555;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+img, .portfolio-block {
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+    margin: 0 0 10px;
+    word-wrap: break-word;
+    overflow-wrap: normal;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-style: italic;
+}
+
+.purple {
+    color: #4e2a84;
+}
+
+header {
+    font-size: 0.8em;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 0;
+    background-color: #fff;
+}
+
+.scroll {
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.container {
+    margin: 0 0 0 205px;
+    padding: 10px;
+    min-height: 100%;
+}
+
+article {
+    margin-top: 40px;
+    min-height: 100%;
+    border-top: 1px dotted #ddd;
+}
+
+.nav {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4e2a84;
+    height: 100%;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    z-index: 100;
+}
+
+.nav a {
+    color: #ddd;
+    text-decoration: none;
+    display: block;
+    padding: 8px 5px;
+    background-color: #371E5D;
+    font-size: smaller;
+    line-height: 1.2;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.subnav {
+    height: 0;
+    /*visibility: hidden;*/
+    /*transition-duration: 0.5s;*/
+    margin-top: -10px;
+    background-color: #927FB5;
+    overflow: hidden;
+}
+
+.subnav a {
+    background-color: #927FB5!important;
+    padding: 5px 0 5px 10px;
+}
+
+.subnav a.active {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.nav ul li.active {
+    background-color: #927FB5;
+}
+
+.nav ul li.active > a {
+    background-color: #927FB5;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.nav ul li.active > ul {
+    height: auto;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.title a {
+    color: #fff;
+    background-color: inherit;
+    border-bottom: 1px dotted #ddd;
+    padding: 5px 0;
+}
+
+.intro {
+    height: 100%;
+    text-align: center;
+    padding: 20% 0 40% 0;
+}
+
+.intro hr {
+    border: 2px solid #4e2a84;
+    width: 50%;
+}
+
+.nav img {
+    width: 90%;
+    padding: 10px 0 0 4px;
+    margin-bottom: -20px;
+}
+
+.main-title {
+    text-align: center;
+}
