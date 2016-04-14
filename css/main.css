@@ -77,6 +77,12 @@ em {
     font-style: italic;
 }
 
+.iframe-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .purple {
     color: #4e2a84;
 }

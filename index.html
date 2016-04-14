@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,8 +21,9 @@
             <ul>
                 <li><a href="#checklist" class="link smoothScroll">Admitted Student Checklist</a>
                     <ul class="subnav">
-                        <li><a class="sub-link smoothScroll" href="#checklist-fullTime">Full Time Students</a></li>
-                        <li><a class="sub-link smoothScroll" href="#checklist-partTime" href="#checklist-partTime">Part Time Students</a></li>
+                        <li><a class="sub-link smoothScroll" href="#checklist-earlyAdmission">Early Admission Students</a></li>
+                        <li><a class="sub-link smoothScroll" href="#checklist-regularMatriculated">Regular Admission Matriculated Students</a></li>
+                        <li><a class="sub-link smoothScroll" href="#checklist-regularNonMatriculated">Regular Admission Non-Matriculated Students</a></li>
                     </ul>
                     
                 </li>
@@ -38,10 +41,8 @@
                 <p class="purple">Northwestern University</p>
             </article>
             <article id="checklist">
-                <h2>Admitted Student Checklists</h2>
+                {% include admitted-student-checklists.html %}
                 
-                <h3 id="checklist-fullTime">Full Time Students</h3>
-                <h3 id="checklist-partTime">Part Time Students</h3>
             </article>
             <br>
             <br>
